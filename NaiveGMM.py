@@ -122,7 +122,7 @@ def NaiveGMM(ALL_data,dim_plot=[],Rotation_Level=0,Angles=[np.pi/4]):
 
     # ------------------------------------------------------ NaiveGMM ----------------------------------------------------- #
     #
-    # ALL_data is a [n_dim,n_events] array. Each Dimension are considered individually.
+    # ALL_data is a [n_dim,n_events] array. Each Dimension is considered individually.
     # Output is [n_events] array containing the estimated probability for each event to belong to the largest distribution.
     # => Be careful of the order when sizes are similar.
     #

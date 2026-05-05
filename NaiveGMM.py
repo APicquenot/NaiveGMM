@@ -1,3 +1,5 @@
+# NaiveGMM original code / Author: A. Picquenot, 2026
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
